@@ -1,11 +1,10 @@
 package sample;
 
 public class Demo2 {
+	int count;
 	public static void main(String[] args) {
-		System.out.println("main");
+		Demo2 d2 =new Demo2();
+		d2.count++;
+		System.out.println(d2.count);
 	}
-	static {
-		System.out.println("static");
-	}
-
 }
