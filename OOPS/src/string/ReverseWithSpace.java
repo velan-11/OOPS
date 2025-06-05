@@ -1,5 +1,5 @@
 package string;
-//to reverse the string only the words not the characters 
+//to reverse the string only the words not the characters  
 //ex: the sky is blue ---->blue is sky the
 import java.util.Scanner;
 

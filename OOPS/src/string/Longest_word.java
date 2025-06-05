@@ -11,7 +11,7 @@ public class Longest_word {
 	}
 	public static String longest(String s) {
 		String a[]=s.trim().split(" ");
-		String loong=a[0];
+		String loong="";
 		int count=0;
 		for(int i=0;i<a.length;i++) {
 			if(a[i].length()>count) {
